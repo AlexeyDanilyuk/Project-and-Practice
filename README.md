@@ -1,3 +1,3 @@
-# Project-and-Practice
+# Project and Practice
 
 Наработки, разработки, решение практических заданий.
