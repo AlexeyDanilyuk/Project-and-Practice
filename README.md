@@ -1,3 +1,3 @@
 # Project and Practice
 
-Наработки, разработки, решение практических заданий.
+Developments, solution of practical tasks.
