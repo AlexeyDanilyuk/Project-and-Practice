@@ -1,0 +1,20 @@
+{% extends 'mainapp/base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+Список СУ/Новая запись
+{% endblock title %}
+
+{% block container %}
+<div class="form-horizontal">
+    <form class="form-horizontal" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <input class="form-control" type="submit" value="сохранить">
+    </form>
+    <button class="btn form-control">
+        <a href="{% url 'judapp:index' %}">Вернуться к списку</a>
+    </button>
+</div>
+{% endblock container %}

@@ -1,0 +1,21 @@
+{% extends 'authapp/base.html' %}
+{% load static %}
+
+{% block container %}
+<form class="form-horizontal" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <br>
+    <div class="btn-group btn-group-justified">
+        <div class="btn-group">
+            <input class="form-control btn-success" type="submit" value="сохранить">
+        </div>
+        <div class="btn-group">
+            <a href="{% url 'main:arm_list' %}" class="btn btn-primary">На главную</a>
+        </div>
+        <div class="btn-group">
+            <a href="#" class="btn btn-danger">Удалить</a>
+        </div>
+    </div>
+</form>
+{% endblock %}
