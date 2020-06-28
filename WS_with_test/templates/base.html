@@ -1,0 +1,51 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {{ title|capfirst }}
+        {% endblock title %}
+    </title>
+    {% block css %}
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock%}
+
+    {% block js %}
+    {% endblock js %}
+</head>
+
+<body>
+    <div class="container">   <h1>{{ title|capfirst }}</h1>
+            <div class="menu">
+                <ul class="mainmenu">
+                    <li class="menu-arm"><a href="{% url 'main' %}">АРМ</a></li>
+                    <li><a href="">Комплектующие АРМ</a>
+                        <ul class="menu-item">
+                            <li class="menu-monitor"><a href="{% url 'monitors' %}">Мониторы</a></li>
+                            <li class="menu-printer"><a href="{% url 'printers' %}">Принтеры</a></li>
+                            <li class="menu-scanner"><a href="{% url 'scanners' %}">Сканеры</a></li>
+                            <li class="menu-sysblock"><a href="{% url 'sysblocks' %}">Системные блоки</a></li>
+                            <li class="menu-ups"><a href="{% url 'upses' %}">ИБП</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-judsite"><a href="{% url 'judsites' %}">Список СУ</a></li>
+                    <li class="menu-jobtitle"><a href="{% url 'jobtitles' %}">Список должностей</a></li>
+                    <li class="menu-user"><a href="{% url 'workusers' %}">Сотрудники</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content clearfix">
+            {% block content %}
+            {% endblock content %}
+        </div>
+        <div class="footer clearfix">
+
+        </div>
+    </div>
+</body>
+
+</html>

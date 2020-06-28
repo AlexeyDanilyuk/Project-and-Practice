@@ -1,0 +1,1932 @@
+events: Ticks
+summary: 493
+fn=<method 'values' of 'collections.OrderedDict' objects>
+0  0
+
+fn=<method 'values' of 'mappingproxy' objects>
+0  0
+
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'rsplit' of 'str' objects>
+0  0
+
+fn=<method 'title' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isidentifier' of 'str' objects>
+0  0
+
+fn=<method 'format' of 'str' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'setdefault' of 'dict' objects>
+0  0
+
+fn=<method 'items' of 'dict' objects>
+0  0
+
+fn=<method 'update' of 'dict' objects>
+0  0
+
+fn=<method 'clear' of 'dict' objects>
+0  0
+
+fn=<method 'copy' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'pop' of 'list' objects>
+0  0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'rstrip' of 'bytes' objects>
+0  0
+
+fn=<built-in method time.time>
+0  0
+
+fn=<built-in method _thread.allocate_lock>
+0  0
+
+fn=<built-in method _thread.get_ident>
+0  0
+
+fn=<method 'match' of 're.Pattern' objects>
+0  0
+
+fn=<method 'search' of 're.Pattern' objects>
+0  0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<built-in method sys.getrecursionlimit>
+0  0
+
+fn=<built-in method _imp.acquire_lock>
+0  0
+
+fn=<built-in method _imp.release_lock>
+0  0
+
+fn=<built-in method builtins.any>
+0  0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/inspect.py
+cfn=<genexpr>
+calls=3 38
+0 0
+
+fn=<built-in method builtins.callable>
+0  0
+
+fn=<built-in method builtins.getattr>
+0  0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+
+fn=<built-in method builtins.next>
+0  0
+
+fn=<built-in method builtins.setattr>
+0  0
+
+fn=<built-in method builtins.sorted>
+0  0
+
+fn=<built-in method __new__ of type object at 0x858cc0>
+0  0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/base.py
+fn=__init__
+51 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/session.py
+fn=__init__
+16 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+16 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+16 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/fallback.py
+fn=<listcomp>
+15 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+15 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/session.py
+cfn=__init__
+calls=1 16
+15 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/fallback.py
+fn=__init__
+13 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/base.py
+cfn=__init__
+calls=1 51
+13 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/fallback.py
+cfn=<listcomp>
+calls=1 15
+13 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/security.py
+fn=process_request
+20 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+20 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/middleware.py
+fn=process_request
+18 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+cfn=__get__
+calls=1 28
+18 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py
+cfn=__init__
+calls=1 16
+18 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+18 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/common.py
+fn=process_request
+42 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=get_host
+calls=1 87
+42 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=get_full_path
+calls=2 115
+42 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/common.py
+cfn=should_redirect_with_slash
+calls=1 70
+42 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/common.py
+fn=should_redirect_with_slash
+70 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+70 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+fn=__init__
+45 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+cfn=_set_session_key
+calls=1 172
+45 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+45 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+fn=_validate_session_key
+162 0
+cfn=<built-in method builtins.len>
+calls=1 0
+162 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+fn=_set_session_key
+172 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+cfn=_validate_session_key
+calls=1 162
+172 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/auth/middleware.py
+fn=process_request
+17 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+17 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 336
+17 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/middleware.py
+fn=process_request
+11 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/__init__.py
+cfn=default_storage
+calls=1 5
+11 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+fn=monkey_patch_template_classes
+37 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+fn=enable_instrumentation
+125 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/middleware.py
+fn=__call__
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=enable_instrumentation
+calls=1 136
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=enable_instrumentation
+calls=9 108
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=enable_instrumentation
+calls=1 94
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/templates/panel.py
+cfn=enable_instrumentation
+calls=1 168
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+47 489
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+cfn=enable_instrumentation
+calls=1 125
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/cache.py
+cfn=enable_instrumentation
+calls=1 234
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+cfn=__init__
+calls=1 19
+47 1
+cfl=/home/alex/worksite/worksite/settings.py
+cfn=<lambda>
+calls=1 189
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=is_ajax
+calls=1 205
+47 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+cfn=enabled_panels
+calls=1 46
+47 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+fn=__init__
+89 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+89 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+fn=enable_instrumentation
+94 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 232
+94 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+fn=process_request
+113 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/utils.py
+cfn=clear_collection
+calls=1 250
+113 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+113 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/cache.py
+fn=__init__
+147 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+147 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+147 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/cache.py
+fn=enable_instrumentation
+234 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+234 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/cache/__init__.py
+cfn=__init__
+calls=1 64
+234 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/logging.py
+fn=__init__
+59 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+59 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/logging.py
+fn=process_request
+75 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/utils.py
+cfn=clear_collection
+calls=1 250
+75 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+75 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/redirects.py
+fn=process_request
+16 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+16 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/profiling.py
+fn=process_request
+154 0
+cfl=/usr/lib/python3.7/cProfile.py
+cfn=runcall
+calls=1 106
+154 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+fn=__init__
+23 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+23 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+cfn=monkey_patch_template_classes
+calls=1 37
+23 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+23 0
+
+fl=/usr/lib/python3.7/cProfile.py
+fn=runcall
+106 0
+cfn=<built-in method builtins.len>
+calls=1 0
+106 0
+cfn=<method 'enable' of '_lsprof.Profiler' objects>
+calls=1 0
+106 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/tracking.py
+fn=wrap_cursor
+41 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+41 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/templates/panel.py
+fn=__init__
+67 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+67 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/templates/panel.py
+fn=enable_instrumentation
+168 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=connect
+calls=1 49
+168 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=__init__
+12 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=panel_id
+18 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=enabled
+22 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=28 18
+22 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/utils.py
+cfn=get_name_from_obj
+calls=28 145
+22 0
+cfn=<method 'get' of 'dict' objects>
+calls=28 0
+22 0
+cfn=<method 'replace' of 'str' objects>
+calls=24 0
+22 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=enable_instrumentation
+108 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=record_stats
+134 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=1 0
+134 0
+cfn=<method 'update' of 'dict' objects>
+calls=1 0
+134 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=1 18
+134 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+fn=process_request
+165 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+cfn=process_request
+calls=1 37
+165 489
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=6 165
+165 489
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/logging.py
+cfn=process_request
+calls=1 75
+165 488
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/redirects.py
+cfn=process_request
+calls=1 16
+165 488
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=process_request
+calls=1 113
+165 488
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/timer.py
+cfn=process_request
+calls=1 54
+165 489
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/profiling.py
+cfn=process_request
+calls=1 154
+165 488
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/utils.py
+fn=get_name_from_obj
+145 0
+cfn=<built-in method builtins.hasattr>
+calls=56 0
+145 0
+cfn=<method 'format' of 'str' objects>
+calls=28 0
+145 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/utils.py
+fn=clear_collection
+250 0
+cfl=/usr/lib/python3.7/threading.py
+cfn=current_thread
+calls=2 1225
+250 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/timer.py
+fn=process_request
+54 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+54 489
+cfn=<built-in method time.time>
+calls=1 0
+54 0
+cfn=<built-in method resource.getrusage>
+calls=1 0
+54 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+fn=<genexpr>
+40 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+cfn=is_http_header
+calls=85 57
+40 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+cfn=unmangle
+calls=9 63
+40 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+fn=<genexpr>
+45 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+fn=process_request
+37 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+cfn=<genexpr>
+calls=16 45
+37 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+37 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=process_request
+calls=1 165
+37 488
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=record_stats
+calls=1 134
+37 0
+cfn=<built-in method builtins.sorted>
+calls=1 0
+37 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+cfn=<genexpr>
+calls=10 40
+37 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+fn=is_http_header
+57 0
+cfn=<built-in method builtins.isinstance>
+calls=85 0
+57 0
+cfn=<method 'startswith' of 'str' objects>
+calls=85 0
+57 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/headers.py
+fn=unmangle
+63 0
+cfn=<method 'title' of 'str' objects>
+calls=9 0
+63 0
+cfn=<method 'replace' of 'str' objects>
+calls=9 0
+63 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+fn=<dictcomp>
+58 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=1 195
+58 0
+cfn=<built-in method builtins.len>
+calls=1 0
+58 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+cfn=queries
+calls=1 151
+58 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+fn=__init__
+56 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=__iter__
+calls=1 213
+56 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=1 12
+56 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=<dictcomp>
+calls=1 58
+56 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+fn=enable_instrumentation
+136 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=all
+calls=1 216
+136 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/tracking.py
+cfn=wrap_cursor
+calls=1 41
+136 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+fn=__init__
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/staticfiles.py
+cfn=__init__
+calls=1 89
+19 0
+cfn=<method 'append' of 'list' objects>
+calls=14 0
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/cache.py
+cfn=__init__
+calls=1 147
+19 0
+cfn=<method 'copy' of 'dict' objects>
+calls=1 0
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+cfn=get_panel_classes
+calls=1 111
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/template_profiler_panel/panels/template.py
+cfn=__init__
+calls=1 23
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=__init__
+calls=8 12
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=panel_id
+calls=14 18
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=enabled
+calls=14 22
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/logging.py
+cfn=__init__
+calls=1 59
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/sql/panel.py
+cfn=__init__
+calls=1 56
+19 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/templates/panel.py
+cfn=__init__
+calls=1 67
+19 0
+cfn=<method 'pop' of 'list' objects>
+calls=14 0
+19 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+fn=<listcomp>
+51 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/panels/__init__.py
+cfn=enabled
+calls=14 22
+51 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+fn=enabled_panels
+46 0
+cfn=<method 'values' of 'collections.OrderedDict' objects>
+calls=1 0
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+cfn=<listcomp>
+calls=1 51
+46 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/toolbar.py
+fn=get_panel_classes
+111 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py
+fn=_should_handle
+33 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+33 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py
+fn=__call__
+64 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/staticfiles/handlers.py
+cfn=_should_handle
+calls=1 33
+64 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 160
+64 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=__call__
+calls=1 142
+64 493
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+19 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=__init__
+67 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_path_info
+calls=1 160
+67 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 19
+67 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 167
+67 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+67 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+67 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+67 0
+cfl=/usr/lib/python3.7/cgi.py
+cfn=parse_header
+calls=1 237
+67 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=COOKIES
+121 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/cookie.py
+cfn=parse_cookie
+calls=1 20
+121 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_str_from_wsgi
+calls=1 213
+121 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=__call__
+142 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/base.py
+cfn=get_response
+calls=1 76
+142 492
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=send
+calls=1 155
+142 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/urls/base.py
+cfn=set_script_prefix
+calls=1 100
+142 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_script_name
+calls=1 167
+142 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=__init__
+calls=1 67
+142 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=get_path_info
+160 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 200
+160 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/encoding.py
+cfn=repercent_broken_unicode
+calls=2 225
+160 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+160 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=get_script_name
+167 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 200
+167 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+167 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=get_bytes_from_wsgi
+200 0
+cfn=<method 'get' of 'dict' objects>
+calls=9 0
+200 0
+cfn=<method 'encode' of 'str' objects>
+calls=9 0
+200 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+fn=get_str_from_wsgi
+213 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=get_bytes_from_wsgi
+calls=1 200
+213 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=1 0
+213 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/base.py
+fn=get_response
+76 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=1 32
+76 492
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/urls/base.py
+cfn=set_urlconf
+calls=1 128
+76 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/exception.py
+fn=inner
+32 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/debug_toolbar/middleware.py
+cfn=__call__
+calls=1 47
+32 491
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/deprecation.py
+cfn=__call__
+calls=8 90
+32 492
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/features.py
+fn=__init__
+256 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/introspection.py
+fn=__init__
+14 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/operations.py
+fn=__init__
+49 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/client.py
+fn=__init__
+7 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/creation.py
+fn=__init__
+19 0
+
+fn=<method 'enable' of '_lsprof.Profiler' objects>
+0  488
+
+fn=<built-in method resource.getrusage>
+0  0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+fn=__init__
+46 0
+cfn=<built-in method _thread.get_ident>
+calls=1 0
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/client.py
+cfn=__init__
+calls=1 7
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/creation.py
+cfn=__init__
+calls=1 19
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/features.py
+cfn=__init__
+calls=1 256
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/introspection.py
+cfn=__init__
+calls=1 14
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/operations.py
+cfn=__init__
+calls=1 49
+46 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/validation.py
+cfn=__init__
+calls=1 3
+46 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+fn=queries
+151 0
+cfn=<built-in method builtins.len>
+calls=1 0
+151 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+fn=close_if_unusable_or_obsolete
+491 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/validation.py
+fn=__init__
+3 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+fn=_sanitize_token
+105 0
+cfn=<built-in method builtins.len>
+calls=1 0
+105 0
+cfl=/usr/lib/python3.7/re.py
+cfn=search
+calls=1 180
+105 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+fn=_get_token
+158 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+cfn=_sanitize_token
+calls=1 105
+158 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+fn=process_request
+197 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+cfn=_get_token
+calls=1 158
+197 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/__init__.py
+fn=default_storage
+5 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/storage/fallback.py
+cfn=__init__
+calls=1 13
+5 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/module_loading.py
+cfn=import_string
+calls=1 7
+5 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/db.py
+fn=__init__
+16 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/backends/base.py
+cfn=__init__
+calls=1 45
+16 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/http.py
+fn=is_same_domain
+261 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+261 0
+
+fl=/usr/lib/python3.7/cgi.py
+fn=_parseparam
+225 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+225 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+225 0
+cfn=<built-in method builtins.len>
+calls=1 0
+225 0
+
+fl=/usr/lib/python3.7/cgi.py
+fn=parse_header
+237 0
+cfl=/usr/lib/python3.7/cgi.py
+cfn=_parseparam
+calls=2 225
+237 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=split_domain_port
+527 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=1 0
+527 0
+cfn=<built-in method builtins.len>
+calls=1 0
+527 0
+cfn=<method 'match' of 're.Pattern' objects>
+calls=1 0
+527 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+527 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+527 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=validate_host
+549 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/http.py
+cfn=is_same_domain
+calls=1 261
+549 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/urls/base.py
+fn=set_script_prefix
+100 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+100 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/urls/base.py
+fn=set_urlconf
+128 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/cookie.py
+fn=parse_cookie
+20 0
+cfn=<method 'split' of 'str' objects>
+calls=6 0
+20 0
+cfl=/usr/lib/python3.7/http/cookies.py
+cfn=_unquote
+calls=5 189
+20 0
+cfn=<method 'strip' of 'str' objects>
+calls=10 0
+20 0
+
+fl=/usr/lib/python3.7/http/cookies.py
+fn=_unquote
+189 0
+cfn=<built-in method builtins.len>
+calls=5 0
+189 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=_get_raw_host
+68 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=get_host
+87 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=_get_raw_host
+calls=1 68
+87 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=validate_host
+calls=1 549
+87 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+cfn=split_domain_port
+calls=1 527
+87 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=get_full_path
+115 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/encoding.py
+cfn=escape_uri_path
+calls=2 208
+115 0
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+115 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/http/request.py
+fn=is_ajax
+205 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+205 0
+
+fl=/home/alex/worksite/worksite/settings.py
+fn=<lambda>
+189 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/encoding.py
+fn=escape_uri_path
+208 0
+cfl=/usr/lib/python3.7/urllib/parse.py
+cfn=quote
+calls=2 782
+208 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/encoding.py
+fn=repercent_broken_unicode
+225 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+225 0
+
+fl=/usr/lib/python3.7/urllib/parse.py
+fn=quote
+782 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+782 0
+cfl=/usr/lib/python3.7/urllib/parse.py
+cfn=quote_from_bytes
+calls=2 853
+782 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+782 0
+
+fl=/usr/lib/python3.7/urllib/parse.py
+fn=quote_from_bytes
+853 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+853 0
+cfn=<method 'rstrip' of 'bytes' objects>
+calls=2 0
+853 0
+cfn=<method 'encode' of 'str' objects>
+calls=2 0
+853 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+853 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/cache/__init__.py
+fn=__init__
+64 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=load_backend
+100 0
+cfl=/usr/lib/python3.7/importlib/__init__.py
+cfn=import_module
+calls=1 109
+100 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=ensure_defaults
+161 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=11 0
+161 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=prepare_test_settings
+182 0
+cfn=<method 'setdefault' of 'dict' objects>
+calls=5 0
+182 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=__getitem__
+195 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+cfn=__init__
+calls=1 46
+195 0
+cfn=<built-in method builtins.setattr>
+calls=1 0
+195 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=load_backend
+calls=1 100
+195 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=prepare_test_settings
+calls=1 182
+195 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=ensure_defaults
+calls=1 161
+195 0
+cfn=<built-in method builtins.hasattr>
+calls=4 0
+195 0
+cfn=<built-in method builtins.getattr>
+calls=3 0
+195 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=_make_id
+7 0
+cfn=<built-in method builtins.id>
+calls=10 0
+7 0
+cfn=<built-in method builtins.hasattr>
+calls=7 0
+7 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=connect
+49 0
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=3 1009
+49 0
+cfl=/usr/lib/python3.7/weakref.py
+cfn=__init__
+calls=3 530
+49 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/inspect.py
+cfn=func_accepts_kwargs
+calls=3 36
+49 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/conf/__init__.py
+cfn=configured
+calls=3 90
+49 0
+cfn=<built-in method builtins.callable>
+calls=3 0
+49 0
+cfl=/usr/lib/python3.7/weakref.py
+cfn=__new__
+calls=3 44
+49 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=6 7
+49 0
+cfn=<method 'append' of 'list' objects>
+calls=3 0
+49 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+49 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=3 217
+49 0
+cfn=<method 'clear' of 'dict' objects>
+calls=3 0
+49 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=<listcomp>
+177 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/__init__.py
+cfn=reset_queries
+calls=1 49
+177 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/__init__.py
+cfn=close_old_connections
+calls=1 59
+177 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=send
+155 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=<listcomp>
+calls=1 177
+155 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=_live_receivers
+calls=1 228
+155 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+155 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=_clear_dead_receivers
+217 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+fn=_live_receivers
+228 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=_make_id
+calls=1 7
+228 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+228 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+228 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/dispatch/dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 217
+228 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/inspect.py
+fn=<genexpr>
+38 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=kind
+calls=17 2529
+38 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/inspect.py
+fn=func_accepts_kwargs
+36 0
+cfn=<built-in method builtins.any>
+calls=3 0
+36 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=parameters
+calls=3 2835
+36 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=signature
+calls=3 3081
+36 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+36 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/inspect.py
+cfn=<genexpr>
+calls=3 38
+36 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/__init__.py
+fn=reset_queries
+49 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=all
+calls=1 216
+49 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+49 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/__init__.py
+fn=close_old_connections
+59 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=all
+calls=1 216
+59 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/backends/base/base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 491
+59 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=__iter__
+213 0
+cfn=<built-in method builtins.iter>
+calls=4 0
+213 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=<listcomp>
+217 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=__getitem__
+calls=3 195
+217 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+fn=all
+216 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=<listcomp>
+calls=3 217
+216 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/db/utils.py
+cfn=__iter__
+calls=3 213
+216 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+fn=__init__
+232 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+cfn=__setattr__
+calls=2 239
+232 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+fn=__setattr__
+239 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+fn=__init__
+336 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+cfn=__init__
+calls=1 232
+336 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=_signature_bound_method
+1799 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=parameters
+calls=3 2835
+1799 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=kind
+calls=6 2529
+1799 0
+cfn=<method 'values' of 'mappingproxy' objects>
+calls=3 0
+1799 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=replace
+calls=3 2843
+1799 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=_signature_from_function
+2117 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=__init__
+calls=20 2467
+2117 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=isfunction
+calls=3 158
+2117 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=__init__
+calls=3 2750
+2117 0
+cfn=<method 'append' of 'list' objects>
+calls=20 0
+2117 0
+cfn=<built-in method builtins.len>
+calls=1 0
+2117 0
+cfn=<method 'get' of 'dict' objects>
+calls=23 0
+2117 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=_signature_from_callable
+2198 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=unwrap
+calls=3 484
+2198 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=_signature_from_callable
+calls=3 2198
+2198 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=isfunction
+calls=3 158
+2198 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=_signature_bound_method
+calls=3 1799
+2198 0
+cfn=<built-in method builtins.callable>
+calls=6 0
+2198 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=_signature_from_function
+calls=3 2117
+2198 0
+cfn=<built-in method builtins.isinstance>
+calls=9 0
+2198 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=__init__
+2467 0
+cfn=<method 'isidentifier' of 'str' objects>
+calls=20 0
+2467 0
+cfl=/usr/lib/python3.7/enum.py
+cfn=__call__
+calls=20 284
+2467 0
+cfn=<built-in method builtins.isinstance>
+calls=20 0
+2467 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=name
+2517 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=default
+2521 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=kind
+2529 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=<genexpr>
+2799 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=name
+calls=20 2517
+2799 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=__init__
+2750 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=kind
+calls=17 2529
+2750 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=<genexpr>
+calls=23 2799
+2750 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=name
+calls=17 2517
+2750 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=default
+calls=14 2521
+2750 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=from_callable
+2829 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=_signature_from_callable
+calls=3 2198
+2829 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=parameters
+2835 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=replace
+2843 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=__init__
+calls=3 2750
+2843 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=signature
+3081 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=from_callable
+calls=3 2829
+3081 0
+
+fl=/usr/lib/python3.7/weakref.py
+fn=__init__
+530 0
+cfn=<built-in method builtins.next>
+calls=3 0
+530 0
+cfn=<built-in method builtins.len>
+calls=3 0
+530 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/module_loading.py
+fn=import_string
+7 0
+cfl=/usr/lib/python3.7/importlib/__init__.py
+cfn=import_module
+calls=2 109
+7 0
+cfn=<method 'rsplit' of 'str' objects>
+calls=2 0
+7 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+7 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/conf/__init__.py
+fn=configured
+90 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/functional.py
+fn=__get__
+28 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/wsgi.py
+cfn=COOKIES
+calls=1 121
+28 0
+
+fl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/utils/deprecation.py
+fn=__call__
+90 0
+cfn=<built-in method builtins.hasattr>
+calls=8 0
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/sessions/middleware.py
+cfn=process_request
+calls=1 18
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/common.py
+cfn=process_request
+calls=1 42
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/csrf.py
+cfn=process_request
+calls=1 197
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/auth/middleware.py
+cfn=process_request
+calls=1 17
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/contrib/messages/middleware.py
+cfn=process_request
+calls=1 11
+90 0
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/core/handlers/exception.py
+cfn=inner
+calls=8 32
+90 492
+cfl=/home/alex/worksite/django2/lib/python3.7/site-packages/django/middleware/security.py
+cfn=process_request
+calls=1 20
+90 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=isfunction
+158 0
+cfn=<built-in method builtins.isinstance>
+calls=6 0
+158 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=_is_wrapper
+504 0
+cfn=<built-in method builtins.hasattr>
+calls=3 0
+504 0
+
+fl=/usr/lib/python3.7/inspect.py
+fn=unwrap
+484 0
+cfl=/usr/lib/python3.7/inspect.py
+cfn=_is_wrapper
+calls=3 504
+484 0
+cfn=<built-in method sys.getrecursionlimit>
+calls=3 0
+484 0
+cfn=<built-in method builtins.id>
+calls=3 0
+484 0
+
+fl=/usr/lib/python3.7/importlib/__init__.py
+fn=import_module
+109 0
+cfl=<frozen importlib._bootstrap>
+cfn=_gcd_import
+calls=3 994
+109 0
+cfn=<method 'startswith' of 'str' objects>
+calls=3 0
+109 0
+
+fl=/usr/lib/python3.7/weakref.py
+fn=__new__
+44 0
+cfn=<built-in method __new__ of type object at 0x858cc0>
+calls=3 0
+44 0
+
+fl=/usr/lib/python3.7/threading.py
+fn=current_thread
+1225 0
+cfn=<built-in method _thread.get_ident>
+calls=2 0
+1225 0
+
+fl=/usr/lib/python3.7/re.py
+fn=search
+180 0
+cfl=/usr/lib/python3.7/re.py
+cfn=_compile
+calls=1 271
+180 0
+cfn=<method 'search' of 're.Pattern' objects>
+calls=1 0
+180 0
+
+fl=/usr/lib/python3.7/re.py
+fn=_compile
+271 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+271 0
+
+fl=/usr/lib/python3.7/enum.py
+fn=__call__
+284 0
+cfl=/usr/lib/python3.7/enum.py
+cfn=__new__
+calls=20 526
+284 0
+
+fl=/usr/lib/python3.7/enum.py
+fn=__new__
+526 0
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+157 0
+cfn=<built-in method _imp.acquire_lock>
+calls=6 0
+157 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=6 58
+157 0
+cfn=<built-in method _imp.release_lock>
+calls=6 0
+157 0
+
+fl=<frozen importlib._bootstrap>
+fn=_lock_unlock_module
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=3 157
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=3 78
+194 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=3 103
+194 0
+
+fl=<frozen importlib._bootstrap>
+fn=_sanity_check
+929 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+929 0
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+978 0
+cfl=<frozen importlib._bootstrap>
+cfn=_lock_unlock_module
+calls=3 194
+978 0
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__
+calls=3 151
+978 0
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=6 176
+978 0
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__
+calls=3 147
+978 0
+cfl=<frozen importlib._bootstrap>
+cfn=__init__
+calls=3 143
+978 0
+cfn=<method 'get' of 'dict' objects>
+calls=3 0
+978 0
+
+fl=<frozen importlib._bootstrap>
+fn=_gcd_import
+994 0
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=3 978
+994 0
+cfl=<frozen importlib._bootstrap>
+cfn=_sanity_check
+calls=3 929
+994 0
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+1009 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+1009 0
+cfn=<built-in method builtins.hasattr>
+calls=6 0
+1009 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+58 0
+cfn=<built-in method _thread.allocate_lock>
+calls=12 0
+58 0
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+78 0
+cfn=<built-in method _thread.get_ident>
+calls=6 0
+78 0
+
+fl=<frozen importlib._bootstrap>
+fn=release
+103 0
+cfn=<built-in method _thread.get_ident>
+calls=6 0
+103 0
+
+fl=<frozen importlib._bootstrap>
+fn=__init__
+143 0
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=3 157
+147 0
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=3 78
+147 0
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__
+151 0
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=3 103
+151 0
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+176 0
+cfn=<built-in method _imp.acquire_lock>
+calls=6 0
+176 0
+cfn=<built-in method _imp.release_lock>
+calls=6 0
+176 0
+cfn=<method 'get' of 'dict' objects>
+calls=6 0
+176 0
+
