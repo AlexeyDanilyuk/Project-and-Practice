@@ -1,17 +1,23 @@
 """
 Используем шаблонизатор Jinja2
 """
+import os
+
 from jinja2 import Template
 
 
-def render(template_name, **kwargs):
+def render(template_name, folder='templates', **kwargs):
     """
-    Минимальный пример работы с шаблонизатором
     :param template_name: имя шаблона
-    :param kwargs: параметры для передачи в шаблон
+    :param folder: папка в которой ищем шаблон
+    :param kwargs: параметры
     :return:
     """
-    with open(template_name, encoding='utf-8') as f:
+    file_path = os.path.join(folder, template_name)
+    # Открываем шаблон по имени
+    with open(file_path, encoding='utf-8') as f:
+        # Читаем
         template = Template(f.read())
+    # рендерим шаблон с параметрами
     return template.render(**kwargs)
 
