@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ content.title }}</title>
+</head>
+<body>
+<div class="content">
+	<div class="header"><h1>{{ content.title }}</h1></div>
+    <form method="post" name="feedback" class="feedback_form">
+		<div><h2>Обратная связь</h2></div>
+		<div>Тема сообщения</div>
+		<input type="text" name="message_header" required>
+    	<div>Имя</div>
+		<input type="text" name="name" required>
+    	<div>E-mail</div>
+		<input type="email" name="email" required>
+    	<div>Текст сообщения</div>
+		<textarea rows="4" cols="32" name="message_text" wrap="soft" required></textarea><br>
+		<input type="submit" class="submit_btn" value="Отправить">
+	</form>
+</div>
+
+</body>
+</html>

@@ -1,7 +1,7 @@
 import templator
 
 
-class IndexView:
+class Index:
     def __init__(self):
         self.template_name = 'index.html'
 
@@ -13,7 +13,7 @@ class IndexView:
         return '200 OK', templator.render(self.template_name, content=request)
 
 
-class AboutView:
+class About:
     def __init__(self):
         self.template_name = 'about.html'
 
@@ -36,3 +36,15 @@ class NotFoundPage:
             'header_name': 'Страница не найдена!!!',
         }
         return '400 Not Found', templator.render(self.template_name, content=request)
+
+
+class ContactPage:
+    def __init__(self):
+        self.template_name = 'contacts.html'
+
+    def __call__(self, request):
+        request = {
+            'title': 'Контакты',
+        }
+
+        return '200 OK', templator.render(self.template_name, content=request)
