@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ content.title }}</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}{{ content.title }}{% endblock %}
+{% block content %}
     <h1>{{ content.header_name }}</h1>
     <h2>Создал страницу {{ content.name }}</h2>
-</body>
-</html>
+{% endblock %}

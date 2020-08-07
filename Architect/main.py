@@ -1,12 +1,6 @@
 import quopri
 
-import views
-
-routes = {
-    '/': views.Index(),
-    '/about/': views.About(),
-    '/contacts/': views.ContactPage(),
-}
+from routes import routes
 
 
 def decode_value(val):
@@ -60,22 +54,20 @@ class Application:
             data = parse_wsgi_input_data(data)
         else:
             data = parse_input_data(environ['QUERY_STRING'])
-        print(f'Вызван метод {method}. Данные в методе: {data}')
-        with open('message.txt', 'a', encoding='utf-8') as file:
-            file.write(f'Сообщение от пользователя {data["name"]}: {data["message_text"]}\n')
 
         if not path.endswith('/'):
             path += '/'
-        view = views.NotFoundPage()
 
         if path in self.routes:
             view = self.routes[path]
-        request = {}
+            request = {'method': method, 'data': data}
+            code, body = view(request)
 
-        code, body = view(request)
-
-        start_response(code, [('Content-Type', 'text/html')])
-        return [bytes(body, encoding='utf-8')]
+            start_response(code, [('Content-Type', 'text/html')])
+            return [bytes(body, encoding='utf-8')]
+        else:
+            start_response('404 Not Found', [('Content-Type', 'text/html')])
+            return [b'Not Found']
 
 
 application = Application(routes)
