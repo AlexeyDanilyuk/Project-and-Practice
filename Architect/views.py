@@ -7,8 +7,8 @@ class IndexView:
 
     def __call__(self, request):
         request = {
-            'title': 'Стартовая страница',
-            'header_name': 'Стартовая страница',
+            'title': 'Главная страница',
+            'header_name': 'Главная страница',
         }
         return '200 OK', templator.render(self.template_name, content=request)
 
