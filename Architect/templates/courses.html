@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ content.title }}{% endblock %}
+{% block container %}
+<nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+    <a class="navbar-brand" href="#">{{ content.title }}</a>
+    <ul class="nav navbar-nav">
+        {% for dict_item in content.course_lst %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ dict_item }}">{{ content.course_lst[dict_item] }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/courses/new/" class="btn btn-primary" role="button" aria-pressed="true">Новая категория
+        курсов</a>
+</nav>
+{% endblock %}
