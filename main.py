@@ -1,3 +1,12 @@
+"""
+Запуск приложения
+=================
+uwsgi --http :8000 --enable-threads --thunder-lock --wsgi-file main.py
+
+или
+
+gunicorn main:application
+"""
 import quopri
 
 from app import routes
@@ -5,7 +14,6 @@ from app import routes
 
 class Application(object):
     def add_route(self, url):
-        # паттерн декоратор
         def inner(view):
             self.routes[url] = view
 
@@ -56,9 +64,7 @@ class Application(object):
 
         if path in self.routes:
             view = self.routes[path]
-            request = {}
-            request['method'] = method
-            request['data'] = data
+            request = {'method': method, 'data': data}
             print(request['data'])
             code, body = view(request)
 

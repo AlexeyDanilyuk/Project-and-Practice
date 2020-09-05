@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ content.title }}{% endblock %}
+{% block container %}
+<h1>{{ content.header_name }}</h1>
+<form action="post">
+    <input type="text" name="name" placeholder="Имя" required>
+    <input type="text" name="lastname" placeholder="Фамилия" required>
+    <button type="submit">Сохранить</button>
+</form>
+{% endblock %}

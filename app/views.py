@@ -1,5 +1,5 @@
 from app import templator
-from app.logger import debug, logger
+from app.logger import debug, MessageWriter
 
 
 class IndexView:
@@ -70,10 +70,24 @@ class CoursePageView:
         self.course_lst = []
 
     def __call__(self, request):
-        logger('course')
+
         if request['method'] == 'POST':
             self.course_lst.append('Новый курс')
         else:
             print(f'{request["method"]}')
 
         return '200 OK', templator.render(self.template_name, title=self.title, course_lst=self.course_lst)
+
+
+class RegisterView:
+    def __init__(self):
+        self.template_name = 'register.html'
+
+    @debug
+    def __call__(self, request):
+        request = {
+            'title': 'Регистрация',
+            'header_name': 'Регистрация студента',
+        }
+
+        return '200 OK', templator.render(self.template_name, content=request)

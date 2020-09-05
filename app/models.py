@@ -23,6 +23,7 @@ class Course(PrototypeMixin):
         self.name = name
         self.category = category
         self.category.courses.append(self)
+        super().__init__()
 
 
 class WebConference(Course):
@@ -48,6 +49,7 @@ class LearnSite:
     def __init__(self):
         self.courses = []
         self.categories = []
+        self.students = []
 
     def create_category(self, name, category=None):
         return Category(name, category)
@@ -61,3 +63,17 @@ class LearnSite:
             if item.id == id:
                 return item
         raise Exception(f'Нет категории с id = {id}')
+
+
+class User:
+    def __init__(self, name, lastname):
+        self.name = name
+        self.lastname = lastname
+
+
+class Student(User):
+    def __init__(self, name, lastname, age, email):
+        self.age = age
+        self.email = email
+        self.courses = []
+        super().__init__(name, lastname)
