@@ -12,7 +12,7 @@ import quopri
 from app import routes
 
 
-class Application(object):
+class Application:
     def add_route(self, url):
         def inner(view):
             self.routes[url] = view

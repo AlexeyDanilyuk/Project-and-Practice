@@ -1,5 +1,9 @@
 from app import templator
-from app.logger import debug, MessageWriter
+from app.cbv import CreateView
+from app.logger import debug
+from main import Application
+
+site = Application
 
 
 class IndexView:
@@ -33,7 +37,6 @@ class NotFoundPageView:
     def __init__(self):
         self.template_name = '404.html'
 
-    @debug
     def __call__(self, request):
         request = {
             'title': '404',
@@ -46,7 +49,6 @@ class ContactPageView:
     def __init__(self):
         self.template_name = 'contacts.html'
 
-    @debug
     def __call__(self, request):
         if request['method'] == 'POST':
             method = request['method']
@@ -79,11 +81,10 @@ class CoursePageView:
         return '200 OK', templator.render(self.template_name, title=self.title, course_lst=self.course_lst)
 
 
-class RegisterView:
+class RegisterUserView:
     def __init__(self):
-        self.template_name = 'register.html'
+        self.template_name = 'reg_user.html'
 
-    @debug
     def __call__(self, request):
         request = {
             'title': 'Регистрация',
@@ -91,3 +92,12 @@ class RegisterView:
         }
 
         return '200 OK', templator.render(self.template_name, content=request)
+
+    def create_user(self, request):
+        if request['method'] == 'POST':
+            print('Регистрация пользователя')
+        return print('Регистрация пользователя')
+
+
+class StudentCreateView(CreateView):
+    template_name = 'reg_user.html'

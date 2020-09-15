@@ -5,7 +5,8 @@ rule = {
     '/about/': views.AboutView(),
     '/contacts/': views.ContactPageView(),
     '/courses/': views.CoursePageView(),
-    '/register/': views.RegisterView(),
+    '/register/': views.RegisterUserView(),
+    '/showuser/': views.RegisterUserView.create_user,
 }
 
 
